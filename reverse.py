@@ -17,7 +17,7 @@ def ngaco():
  |_|\_\___|_|*   |_|_| |_|\__,_|\___|_|*
  ---------------Reverse-IP------------
  Author: GHz7
- Team: PsychoXploit
+ Team: PsychoXploit - Banyumas Cyber Team 
  Created: 14-02-20
     """
     print(logox)
@@ -42,7 +42,7 @@ def ngaco():
                             remo.append(o[0]+'//'+o[2])
                             x = o[0]+'//'+o[2]
                             try:
-                                df = {'/adminpanel/ckeditor/kcfinder/upload.php','/kcfinder/upload.php','/admin/kcfinder/upload.php','/ckeditor/kcfindeer/upload.php','/assets/kcfinder/upload.php'}
+                                df = {'/adminpanel/ckeditor/kcfinder/upload.php','/kcfinder/upload.php','/admin/kcfinder/upload.php','/ckeditor/kcfinder/upload.php','/assets/kcfinder/upload.php'}
                                 for bf in df:
                                     cr = bf.replace('\n\n','')
                                     fak = x+cr
